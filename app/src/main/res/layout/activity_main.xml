@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:isScrollContainer="true"
     tools:context=".MainActivity">
 
 
@@ -99,15 +100,6 @@
         android:text="Say Something"
         android:textAlignment="center" />
 
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/idBtnTranslate"
-        style="@style/Widget.Material3.Button.OutlinedButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="21dp"
-        android:layout_marginTop="21dp"
-        android:text="Translate" />
-
     <TextView
         android:id="@+id/idTVTranslate"
         android:layout_width="match_parent"
@@ -118,4 +110,13 @@
         android:textAlignment="center"
         android:textColor="@color/red"
         android:textSize="21sp" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/idBtnTranslate"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="21dp"
+        android:text="Translate" />
+
 </LinearLayout>
